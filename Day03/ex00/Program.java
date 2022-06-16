@@ -3,8 +3,11 @@ public class Program {
         int count = parser(args);
         Runnable runnable = () -> {
             for (int i = 0; i < count; i++) {
-
-                +
+                if (Thread.currentThread().getName().equals("egg")) {
+                    System.out.println("Egg");
+                } else {
+                    System.out.println("Hen");
+                }
             }
         };
         Thread egg = new Thread(runnable, "egg");
