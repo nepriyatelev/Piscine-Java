@@ -1,0 +1,1 @@
+create table product(identifier bigint identity primary key, name varchar(20), price integer);
