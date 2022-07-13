@@ -1,0 +1,10 @@
+insert into product (IDENTIFIER, NAME, PRICE) values (1, 'product1', 10);
+insert into product (IDENTIFIER, NAME, PRICE) values (2, 'product2', 20);
+insert into product (IDENTIFIER, NAME, PRICE) values (3, 'product3', 30);
+insert into product (IDENTIFIER, NAME, PRICE) values (4, 'product4', 40);
+insert into product (IDENTIFIER, NAME, PRICE) values (5, 'product5', 50);
+insert into product (IDENTIFIER, NAME, PRICE) values (6, 'product6', 60);
+insert into product (IDENTIFIER, NAME, PRICE) values (7, 'product7', 70);
+insert into product (IDENTIFIER, NAME, PRICE) values (8, 'product8', 80);
+insert into product (IDENTIFIER, NAME, PRICE) values (9, 'product9', 90);
+insert into product (IDENTIFIER, NAME, PRICE) values (10, 'product10', 100);
