@@ -59,11 +59,11 @@ public class Program {
         System.out.println(usersArrayList.getById(11).getIdentifier());
         System.out.println(usersArrayList.getById(12).getIdentifier());
         System.out.println(usersArrayList.getById(13).getIdentifier());
-//        try {
-//            System.out.println(usersArrayList.getById(14).getIdentifier());
-//        } catch (UserNotFoundException e) {
-//            System.out.println(e.getMessage());
-//        }
+        try {
+            System.out.println(usersArrayList.getById(14).getIdentifier());
+        } catch (UserNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
 
         System.out.println(usersArrayList.getByIndex(1).getIdentifier());
         System.out.println(usersArrayList.getNumberOfUsers());
