@@ -26,6 +26,11 @@ public class Program {
         int min = 9;
         for (int i = 0; i < 5; i++) {
             int inputNumber = scanner.nextInt();
+            if (inputNumber < 1 || inputNumber > 9) {
+                System.err.println("Illegal Argument");
+                scanner.close();
+                System.exit(-1);
+            }
             if (inputNumber < min) {
                 min = inputNumber;
             }

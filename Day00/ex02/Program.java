@@ -12,7 +12,7 @@ public class Program {
             }
         }
         scanner.close();
-        System.out.println("Count of coffee - request - " + prime);
+        System.out.println("Count of coffee-request - " + prime);
     }
 
     public static int sumOfDigits(int number) {
